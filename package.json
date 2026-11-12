@@ -1,0 +1,748 @@
+{
+  "name": "multiverse-theme",
+  "displayName": "Multiverse Theme",
+  "description": "93 color themes, 21 file-icon styles and 93 mascots in one: color-blind-safe, focus, night-shift and stage modes; hero, anime, cartoon, retro, art and neon looks. 325 file types. Live-preview pickers, random/daily/scheduled switching, contrast-checked.",
+  "version": "0.0.1",
+  "publisher": "nuhmanpk",
+  "license": "MIT",
+  "icon": "images/icon.png",
+  "galleryBanner": {
+    "color": "#0c0a1d",
+    "theme": "dark"
+  },
+  "engines": {
+    "vscode": "^1.81.0"
+  },
+  "categories": [
+    "Themes",
+    "Other"
+  ],
+  "keywords": [
+    "accessibility",
+    "accessible",
+    "anime",
+    "cartoon",
+    "color blind",
+    "color theme",
+    "cyberpunk",
+    "dark theme",
+    "file icons",
+    "folder icons",
+    "high contrast",
+    "icon theme",
+    "light theme",
+    "multiverse",
+    "nestjs",
+    "oled",
+    "superhero",
+    "synthwave",
+    "theme"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Multiverse Night",
+        "uiTheme": "vs-dark",
+        "path": "./themes/multiverse-night.json"
+      },
+      {
+        "label": "Multiverse Dusk",
+        "uiTheme": "vs-dark",
+        "path": "./themes/multiverse-dusk.json"
+      },
+      {
+        "label": "Multiverse Midnight (OLED)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/multiverse-midnight.json"
+      },
+      {
+        "label": "Multiverse Day",
+        "uiTheme": "vs",
+        "path": "./themes/multiverse-day.json"
+      },
+      {
+        "label": "Multiverse High Contrast",
+        "uiTheme": "hc-black",
+        "path": "./themes/multiverse-contrast.json"
+      },
+      {
+        "label": "Multiverse High Contrast Light",
+        "uiTheme": "hc-light",
+        "path": "./themes/multiverse-day-contrast.json"
+      },
+      {
+        "label": "Multiverse Clear Sight",
+        "uiTheme": "vs-dark",
+        "path": "./themes/multiverse-cvd.json"
+      },
+      {
+        "label": "Multiverse Clear Sight Light",
+        "uiTheme": "vs",
+        "path": "./themes/multiverse-cvdlight.json"
+      },
+      {
+        "label": "Multiverse Clear Sight Tritan",
+        "uiTheme": "vs-dark",
+        "path": "./themes/multiverse-tritan.json"
+      },
+      {
+        "label": "Multiverse Night Shift",
+        "uiTheme": "vs-dark",
+        "path": "./themes/multiverse-nightshift.json"
+      },
+      {
+        "label": "Multiverse Sunlight",
+        "uiTheme": "vs",
+        "path": "./themes/multiverse-sunlight.json"
+      },
+      {
+        "label": "Multiverse Focus",
+        "uiTheme": "vs-dark",
+        "path": "./themes/multiverse-focus.json"
+      },
+      {
+        "label": "Multiverse Focus Light",
+        "uiTheme": "vs",
+        "path": "./themes/multiverse-focuslight.json"
+      },
+      {
+        "label": "Multiverse Ink",
+        "uiTheme": "vs",
+        "path": "./themes/multiverse-ink.json"
+      },
+      {
+        "label": "Multiverse Stage",
+        "uiTheme": "vs-dark",
+        "path": "./themes/multiverse-stage.json"
+      },
+      {
+        "label": "Multiverse Stage Light",
+        "uiTheme": "vs",
+        "path": "./themes/multiverse-stagelight.json"
+      },
+      {
+        "label": "Multiverse Night Vigilante",
+        "uiTheme": "vs-dark",
+        "path": "./themes/multiverse-vigilante.json"
+      },
+      {
+        "label": "Multiverse Crimson Web",
+        "uiTheme": "vs-dark",
+        "path": "./themes/multiverse-web.json"
+      },
+      {
+        "label": "Multiverse Iron Sentinel",
+        "uiTheme": "vs-dark",
+        "path": "./themes/multiverse-armor.json"
+      },
+      {
+        "label": "Multiverse Storm Hammer",
+        "uiTheme": "vs-dark",
+        "path": "./themes/multiverse-thunder.json"
+      },
+      {
+        "label": "Multiverse Star Shield",
+        "uiTheme": "vs-dark",
+        "path": "./themes/multiverse-shield.json"
+      },
+      {
+        "label": "Multiverse Steel Hope",
+        "uiTheme": "vs-dark",
+        "path": "./themes/multiverse-krypton.json"
+      },
+      {
+        "label": "Multiverse Emerald Oath",
+        "uiTheme": "vs-dark",
+        "path": "./themes/multiverse-emerald.json"
+      },
+      {
+        "label": "Multiverse Warrior Princess",
+        "uiTheme": "vs-dark",
+        "path": "./themes/multiverse-amazon.json"
+      },
+      {
+        "label": "Multiverse Jade Fury",
+        "uiTheme": "vs-dark",
+        "path": "./themes/multiverse-jade.json"
+      },
+      {
+        "label": "Multiverse Scarlet Speed",
+        "uiTheme": "vs-dark",
+        "path": "./themes/multiverse-speedster.json"
+      },
+      {
+        "label": "Multiverse Wild Card",
+        "uiTheme": "vs-dark",
+        "path": "./themes/multiverse-jester.json"
+      },
+      {
+        "label": "Multiverse Mad Titan",
+        "uiTheme": "vs-dark",
+        "path": "./themes/multiverse-titan.json"
+      },
+      {
+        "label": "Multiverse Trickster",
+        "uiTheme": "vs-dark",
+        "path": "./themes/multiverse-trickster.json"
+      },
+      {
+        "label": "Multiverse Black Symbiote",
+        "uiTheme": "vs-dark",
+        "path": "./themes/multiverse-symbiote.json"
+      },
+      {
+        "label": "Multiverse Panther Royal",
+        "uiTheme": "vs-dark",
+        "path": "./themes/multiverse-panther.json"
+      },
+      {
+        "label": "Multiverse Mystic Arts",
+        "uiTheme": "vs-dark",
+        "path": "./themes/multiverse-mystic.json"
+      },
+      {
+        "label": "Multiverse Tide King",
+        "uiTheme": "vs-dark",
+        "path": "./themes/multiverse-tide.json"
+      },
+      {
+        "label": "Multiverse Mutant Academy",
+        "uiTheme": "vs-dark",
+        "path": "./themes/multiverse-academy.json"
+      },
+      {
+        "label": "Multiverse Neon Tokyo",
+        "uiTheme": "vs-dark",
+        "path": "./themes/multiverse-tokyo.json"
+      },
+      {
+        "label": "Multiverse Sakura",
+        "uiTheme": "vs",
+        "path": "./themes/multiverse-sakura.json"
+      },
+      {
+        "label": "Multiverse Shonen Flame",
+        "uiTheme": "vs-dark",
+        "path": "./themes/multiverse-shonen.json"
+      },
+      {
+        "label": "Multiverse Spirit Forest",
+        "uiTheme": "vs-dark",
+        "path": "./themes/multiverse-spirit.json"
+      },
+      {
+        "label": "Multiverse Crimson Moon",
+        "uiTheme": "vs-dark",
+        "path": "./themes/multiverse-crimsonmoon.json"
+      },
+      {
+        "label": "Multiverse Shadow Ninja",
+        "uiTheme": "vs-dark",
+        "path": "./themes/multiverse-shinobi.json"
+      },
+      {
+        "label": "Multiverse Mecha Unit",
+        "uiTheme": "vs-dark",
+        "path": "./themes/multiverse-mecha.json"
+      },
+      {
+        "label": "Multiverse High Seas",
+        "uiTheme": "vs-dark",
+        "path": "./themes/multiverse-highseas.json"
+      },
+      {
+        "label": "Multiverse Magical Girl",
+        "uiTheme": "vs",
+        "path": "./themes/multiverse-magical.json"
+      },
+      {
+        "label": "Multiverse Toon Night",
+        "uiTheme": "vs-dark",
+        "path": "./themes/multiverse-toon.json"
+      },
+      {
+        "label": "Multiverse Saturday Morning",
+        "uiTheme": "vs",
+        "path": "./themes/multiverse-cartoon.json"
+      },
+      {
+        "label": "Multiverse Bubble Reef",
+        "uiTheme": "vs",
+        "path": "./themes/multiverse-reef.json"
+      },
+      {
+        "label": "Multiverse Desert Chase",
+        "uiTheme": "vs",
+        "path": "./themes/multiverse-desert.json"
+      },
+      {
+        "label": "Multiverse Mystery Van",
+        "uiTheme": "vs-dark",
+        "path": "./themes/multiverse-mysteryvan.json"
+      },
+      {
+        "label": "Multiverse Comic Strip",
+        "uiTheme": "vs",
+        "path": "./themes/multiverse-comicstrip.json"
+      },
+      {
+        "label": "Multiverse Saber Duel",
+        "uiTheme": "vs-dark",
+        "path": "./themes/multiverse-saber.json"
+      },
+      {
+        "label": "Multiverse Mars Colony",
+        "uiTheme": "vs-dark",
+        "path": "./themes/multiverse-mars.json"
+      },
+      {
+        "label": "Multiverse Deep Nebula",
+        "uiTheme": "vs-dark",
+        "path": "./themes/multiverse-nebula.json"
+      },
+      {
+        "label": "Multiverse Pixel Arcade",
+        "uiTheme": "vs-dark",
+        "path": "./themes/multiverse-arcade.json"
+      },
+      {
+        "label": "Multiverse Block World",
+        "uiTheme": "vs-dark",
+        "path": "./themes/multiverse-blocks.json"
+      },
+      {
+        "label": "Multiverse Pipe Dream",
+        "uiTheme": "vs",
+        "path": "./themes/multiverse-pipes.json"
+      },
+      {
+        "label": "Multiverse Synthwave Sunset",
+        "uiTheme": "vs-dark",
+        "path": "./themes/multiverse-synthwave.json"
+      },
+      {
+        "label": "Multiverse Green Rain",
+        "uiTheme": "vs-dark",
+        "path": "./themes/multiverse-matrixish.json"
+      },
+      {
+        "label": "Multiverse Turbo Blue",
+        "uiTheme": "vs-dark",
+        "path": "./themes/multiverse-turbo.json"
+      },
+      {
+        "label": "Multiverse Amber CRT",
+        "uiTheme": "vs-dark",
+        "path": "./themes/multiverse-amber.json"
+      },
+      {
+        "label": "Multiverse Rust Forge",
+        "uiTheme": "vs-dark",
+        "path": "./themes/multiverse-rustforge.json"
+      },
+      {
+        "label": "Multiverse Gopher Burrow",
+        "uiTheme": "vs-dark",
+        "path": "./themes/multiverse-gopher.json"
+      },
+      {
+        "label": "Multiverse Pythonista",
+        "uiTheme": "vs-dark",
+        "path": "./themes/multiverse-pythonista.json"
+      },
+      {
+        "label": "Multiverse Lo-fi Study",
+        "uiTheme": "vs-dark",
+        "path": "./themes/multiverse-lofi.json"
+      },
+      {
+        "label": "Multiverse Rainy Window",
+        "uiTheme": "vs-dark",
+        "path": "./themes/multiverse-rainy.json"
+      },
+      {
+        "label": "Multiverse Vinyl Jazz",
+        "uiTheme": "vs-dark",
+        "path": "./themes/multiverse-vinyl.json"
+      },
+      {
+        "label": "Multiverse Pumpkin Patch",
+        "uiTheme": "vs-dark",
+        "path": "./themes/multiverse-pumpkin.json"
+      },
+      {
+        "label": "Multiverse Festive Pine",
+        "uiTheme": "vs-dark",
+        "path": "./themes/multiverse-pine.json"
+      },
+      {
+        "label": "Multiverse Arctic Frost",
+        "uiTheme": "vs",
+        "path": "./themes/multiverse-arctic.json"
+      },
+      {
+        "label": "Multiverse Volcano",
+        "uiTheme": "vs-dark",
+        "path": "./themes/multiverse-volcano.json"
+      },
+      {
+        "label": "Multiverse Espresso",
+        "uiTheme": "vs-dark",
+        "path": "./themes/multiverse-espresso.json"
+      },
+      {
+        "label": "Multiverse Matcha Latte",
+        "uiTheme": "vs",
+        "path": "./themes/multiverse-matcha.json"
+      },
+      {
+        "label": "Multiverse Olympus",
+        "uiTheme": "vs",
+        "path": "./themes/multiverse-olympus.json"
+      },
+      {
+        "label": "Multiverse Pharaoh",
+        "uiTheme": "vs-dark",
+        "path": "./themes/multiverse-pharaoh.json"
+      },
+      {
+        "label": "Multiverse Neo Brutal",
+        "uiTheme": "vs",
+        "path": "./themes/multiverse-brutal.json"
+      },
+      {
+        "label": "Multiverse Bauhaus",
+        "uiTheme": "vs",
+        "path": "./themes/multiverse-bauhaus.json"
+      },
+      {
+        "label": "Multiverse Risograph",
+        "uiTheme": "vs",
+        "path": "./themes/multiverse-riso.json"
+      },
+      {
+        "label": "Multiverse Memphis Squiggle",
+        "uiTheme": "vs",
+        "path": "./themes/multiverse-memphis.json"
+      },
+      {
+        "label": "Multiverse Sumi Ink",
+        "uiTheme": "vs",
+        "path": "./themes/multiverse-sumi.json"
+      },
+      {
+        "label": "Multiverse Candy Pop",
+        "uiTheme": "vs",
+        "path": "./themes/multiverse-candy.json"
+      },
+      {
+        "label": "Multiverse Nordic Fjord",
+        "uiTheme": "vs",
+        "path": "./themes/multiverse-fjord.json"
+      },
+      {
+        "label": "Multiverse Golden Hour",
+        "uiTheme": "vs",
+        "path": "./themes/multiverse-goldenhour.json"
+      },
+      {
+        "label": "Multiverse Aurora Borealis",
+        "uiTheme": "vs-dark",
+        "path": "./themes/multiverse-aurora.json"
+      },
+      {
+        "label": "Multiverse Abyssal Glow",
+        "uiTheme": "vs-dark",
+        "path": "./themes/multiverse-abyss.json"
+      },
+      {
+        "label": "Multiverse Vapor Mall",
+        "uiTheme": "vs-dark",
+        "path": "./themes/multiverse-vapormall.json"
+      },
+      {
+        "label": "Multiverse Glitch",
+        "uiTheme": "vs-dark",
+        "path": "./themes/multiverse-glitch.json"
+      },
+      {
+        "label": "Multiverse Cyber Ronin",
+        "uiTheme": "vs-dark",
+        "path": "./themes/multiverse-samurai.json"
+      },
+      {
+        "label": "Multiverse Lantern Market",
+        "uiTheme": "vs-dark",
+        "path": "./themes/multiverse-lanterns.json"
+      },
+      {
+        "label": "Multiverse Art Deco",
+        "uiTheme": "vs-dark",
+        "path": "./themes/multiverse-deco.json"
+      },
+      {
+        "label": "Multiverse Royal Velvet",
+        "uiTheme": "vs-dark",
+        "path": "./themes/multiverse-velvet.json"
+      },
+      {
+        "label": "Multiverse Midnight Jazz",
+        "uiTheme": "vs-dark",
+        "path": "./themes/multiverse-jazz.json"
+      },
+      {
+        "label": "Multiverse Desert Noir",
+        "uiTheme": "vs-dark",
+        "path": "./themes/multiverse-noir.json"
+      },
+      {
+        "label": "Multiverse Frozen Crystal",
+        "uiTheme": "vs-dark",
+        "path": "./themes/multiverse-crystal.json"
+      },
+      {
+        "label": "Multiverse Solar Punk",
+        "uiTheme": "vs-dark",
+        "path": "./themes/multiverse-solarpunk.json"
+      }
+    ],
+    "commands": [
+      {
+        "command": "multiverse.pick",
+        "title": "Pick a Universe (live preview)",
+        "category": "Multiverse"
+      },
+      {
+        "command": "multiverse.random",
+        "title": "Random Universe",
+        "category": "Multiverse"
+      },
+      {
+        "command": "multiverse.next",
+        "title": "Next Universe",
+        "category": "Multiverse"
+      },
+      {
+        "command": "multiverse.previous",
+        "title": "Previous Universe",
+        "category": "Multiverse"
+      },
+      {
+        "command": "multiverse.daily",
+        "title": "Today's Universe",
+        "category": "Multiverse"
+      },
+      {
+        "command": "multiverse.pickIcons",
+        "title": "Pick Folder Icon Style (live preview)",
+        "category": "Multiverse"
+      }
+    ],
+    "keybindings": [
+      {
+        "command": "multiverse.pick",
+        "key": "ctrl+alt+m",
+        "mac": "ctrl+cmd+m"
+      },
+      {
+        "command": "multiverse.random",
+        "key": "ctrl+alt+r",
+        "mac": "ctrl+cmd+r"
+      }
+    ],
+    "configuration": {
+      "title": "Multiverse",
+      "properties": {
+        "multiverse.statusBar": {
+          "type": "boolean",
+          "default": true,
+          "description": "Show the current universe in the status bar (click to switch)."
+        },
+        "multiverse.dailyUniverse": {
+          "type": "boolean",
+          "default": false,
+          "description": "Switch to a new universe each day on startup (same one all day)."
+        },
+        "multiverse.schedule": {
+          "type": "object",
+          "default": {},
+          "additionalProperties": {
+            "type": "string"
+          },
+          "markdownDescription": "Switch by time of day. Keys are `HH:MM`, values are variant names. Example: `{ \"07:00\": \"Day\", \"18:00\": \"Lo-fi Study\", \"23:00\": \"Night Shift\" }`. Takes priority over `dailyUniverse`."
+        },
+        "multiverse.randomPool": {
+          "type": "array",
+          "default": [],
+          "items": {
+            "type": "string",
+            "enum": [
+              "Core",
+              "Accessibility",
+              "Focus & Workflow",
+              "Heroes & Villains",
+              "Anime",
+              "Cartoons",
+              "Sci-fi & Games",
+              "Retro",
+              "Dev Culture",
+              "Moods & Seasons",
+              "Nature, Food & Myth",
+              "Art & Design",
+              "Neon & Electric",
+              "Luxe & Cinematic"
+            ]
+          },
+          "description": "Limit Random / Daily universe to these groups (empty = all)."
+        },
+        "multiverse.randomKinds": {
+          "type": "array",
+          "default": [
+            "dark",
+            "light"
+          ],
+          "items": {
+            "type": "string",
+            "enum": [
+              "dark",
+              "light"
+            ]
+          },
+          "description": "Limit Random / Daily universe to dark and/or light variants."
+        }
+      }
+    },
+    "iconThemes": [
+      {
+        "id": "multiverse-icons-classic",
+        "label": "Multiverse Icons: Classic",
+        "path": "./icons/classic/theme.json"
+      },
+      {
+        "id": "multiverse-icons-comic",
+        "label": "Multiverse Icons: Comic",
+        "path": "./icons/comic/theme.json"
+      },
+      {
+        "id": "multiverse-icons-pixel",
+        "label": "Multiverse Icons: Pixel",
+        "path": "./icons/pixel/theme.json"
+      },
+      {
+        "id": "multiverse-icons-outline",
+        "label": "Multiverse Icons: Outline",
+        "path": "./icons/outline/theme.json"
+      },
+      {
+        "id": "multiverse-icons-neon",
+        "label": "Multiverse Icons: Neon",
+        "path": "./icons/neon/theme.json"
+      },
+      {
+        "id": "multiverse-icons-glass",
+        "label": "Multiverse Icons: Glass",
+        "path": "./icons/glass/theme.json"
+      },
+      {
+        "id": "multiverse-icons-gradient",
+        "label": "Multiverse Icons: Gradient",
+        "path": "./icons/gradient/theme.json"
+      },
+      {
+        "id": "multiverse-icons-pastel",
+        "label": "Multiverse Icons: Pastel",
+        "path": "./icons/pastel/theme.json"
+      },
+      {
+        "id": "multiverse-icons-sticker",
+        "label": "Multiverse Icons: Sticker",
+        "path": "./icons/sticker/theme.json"
+      },
+      {
+        "id": "multiverse-icons-blueprint",
+        "label": "Multiverse Icons: Blueprint",
+        "path": "./icons/blueprint/theme.json"
+      },
+      {
+        "id": "multiverse-icons-mono",
+        "label": "Multiverse Icons: Mono",
+        "path": "./icons/mono/theme.json"
+      },
+      {
+        "id": "multiverse-icons-dots",
+        "label": "Multiverse Icons: Dots",
+        "path": "./icons/dots/theme.json"
+      },
+      {
+        "id": "multiverse-icons-buddies",
+        "label": "Multiverse Icons: Buddies",
+        "path": "./icons/buddies/theme.json"
+      },
+      {
+        "id": "multiverse-icons-critters",
+        "label": "Multiverse Icons: Critters",
+        "path": "./icons/critters/theme.json"
+      },
+      {
+        "id": "multiverse-icons-monsters",
+        "label": "Multiverse Icons: Monsters",
+        "path": "./icons/monsters/theme.json"
+      },
+      {
+        "id": "multiverse-icons-iso",
+        "label": "Multiverse Icons: Isometric",
+        "path": "./icons/iso/theme.json"
+      },
+      {
+        "id": "multiverse-icons-clay",
+        "label": "Multiverse Icons: Clay",
+        "path": "./icons/clay/theme.json"
+      },
+      {
+        "id": "multiverse-icons-holo",
+        "label": "Multiverse Icons: Holo",
+        "path": "./icons/holo/theme.json"
+      },
+      {
+        "id": "multiverse-icons-sketch",
+        "label": "Multiverse Icons: Sketch",
+        "path": "./icons/sketch/theme.json"
+      },
+      {
+        "id": "multiverse-icons-retro",
+        "label": "Multiverse Icons: Retro OS",
+        "path": "./icons/retro/theme.json"
+      },
+      {
+        "id": "multiverse-icons-paper",
+        "label": "Multiverse Icons: Paper Cut",
+        "path": "./icons/paper/theme.json"
+      }
+    ]
+  },
+  "scripts": {
+    "check": "node scripts/contrast.mjs",
+    "build": "node scripts/build.mjs && node scripts/icons.mjs && node scripts/icon-gallery.mjs && node scripts/mascots.mjs && node scripts/art.mjs",
+    "package": "npm run check && npm run build && node scripts/marketplace-readme.mjs && npx @vscode/vsce package --readme-path README.marketplace.md",
+    "publish": "npm run package && npx @vscode/vsce publish --packagePath multiverse-theme-$npm_package_version.vsix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nuhmanpk/multiverse-theme"
+  },
+  "homepage": "https://github.com/nuhmanpk/multiverse-theme#readme",
+  "bugs": {
+    "url": "https://github.com/nuhmanpk/multiverse-theme/issues"
+  },
+  "sponsor": {
+    "url": "https://github.com/sponsors/nuhmanpk"
+  },
+  "author": {
+    "name": "Nuhman",
+    "url": "https://github.com/nuhmanpk"
+  },
+  "main": "./extension.js",
+  "activationEvents": [
+    "onStartupFinished"
+  ]
+}

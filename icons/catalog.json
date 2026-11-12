@@ -1,0 +1,149 @@
+[
+  {
+    "id": "multiverse-icons-classic",
+    "style": "classic",
+    "name": "Classic",
+    "detail": "solid folders, color-coded by purpose",
+    "files": "files"
+  },
+  {
+    "id": "multiverse-icons-comic",
+    "style": "comic",
+    "name": "Comic",
+    "detail": "ink outline, hard shadow, speech-bubble emblems",
+    "files": "files"
+  },
+  {
+    "id": "multiverse-icons-pixel",
+    "style": "pixel",
+    "name": "Pixel",
+    "detail": "8-bit blocky folders",
+    "files": "files"
+  },
+  {
+    "id": "multiverse-icons-outline",
+    "style": "outline",
+    "name": "Outline",
+    "detail": "minimal line folders",
+    "files": "files"
+  },
+  {
+    "id": "multiverse-icons-neon",
+    "style": "neon",
+    "name": "Neon",
+    "detail": "glowing line folders for dark themes",
+    "files": "files"
+  },
+  {
+    "id": "multiverse-icons-glass",
+    "style": "glass",
+    "name": "Glass",
+    "detail": "frosted translucent folders with a sheen",
+    "files": "files"
+  },
+  {
+    "id": "multiverse-icons-gradient",
+    "style": "gradient",
+    "name": "Gradient",
+    "detail": "vivid two-tone gradient folders",
+    "files": "files"
+  },
+  {
+    "id": "multiverse-icons-pastel",
+    "style": "pastel",
+    "name": "Pastel",
+    "detail": "soft candy-colored folders",
+    "files": "files"
+  },
+  {
+    "id": "multiverse-icons-sticker",
+    "style": "sticker",
+    "name": "Sticker",
+    "detail": "die-cut stickers with a white border",
+    "files": "files"
+  },
+  {
+    "id": "multiverse-icons-blueprint",
+    "style": "blueprint",
+    "name": "Blueprint",
+    "detail": "dashed technical-drawing folders",
+    "files": "files"
+  },
+  {
+    "id": "multiverse-icons-mono",
+    "style": "mono",
+    "name": "Mono",
+    "detail": "monochrome folders and file badges: zero distraction",
+    "files": "files-mono"
+  },
+  {
+    "id": "multiverse-icons-dots",
+    "style": "dots",
+    "name": "Dots",
+    "detail": "ultra-minimal: outline folders and files marked by a colored dot",
+    "files": "files-minimal"
+  },
+  {
+    "id": "multiverse-icons-buddies",
+    "style": "buddies",
+    "name": "Buddies",
+    "detail": "kawaii folder creatures with rosy cheeks",
+    "files": "files-buddies"
+  },
+  {
+    "id": "multiverse-icons-critters",
+    "style": "critters",
+    "name": "Critters",
+    "detail": "folders as little animals: cats, bugs, robots, whales…",
+    "files": "files-critters"
+  },
+  {
+    "id": "multiverse-icons-monsters",
+    "style": "monsters",
+    "name": "Monsters",
+    "detail": "friendly monsters: horns, big eyes, tiny fangs",
+    "files": "files-monsters"
+  },
+  {
+    "id": "multiverse-icons-iso",
+    "style": "iso",
+    "name": "Isometric",
+    "detail": "3D isometric boxes: lit top face, shaded side, real depth",
+    "files": "files"
+  },
+  {
+    "id": "multiverse-icons-clay",
+    "style": "clay",
+    "name": "Clay",
+    "detail": "puffy claymorphism: soft highlight, inner shade, cushioned shadow",
+    "files": "files"
+  },
+  {
+    "id": "multiverse-icons-holo",
+    "style": "holo",
+    "name": "Holo",
+    "detail": "iridescent holographic foil with a diagonal sheen",
+    "files": "files"
+  },
+  {
+    "id": "multiverse-icons-sketch",
+    "style": "sketch",
+    "name": "Sketch",
+    "detail": "hand-drawn wobbly ink with crosshatch shading",
+    "files": "files"
+  },
+  {
+    "id": "multiverse-icons-retro",
+    "style": "retro",
+    "name": "Retro OS",
+    "detail": "90s desktop: chunky bevels, light top-left, dark bottom-right",
+    "files": "files"
+  },
+  {
+    "id": "multiverse-icons-paper",
+    "style": "paper",
+    "name": "Paper Cut",
+    "detail": "layered paper cut-outs with a folded corner and drop shadow",
+    "files": "files"
+  }
+]

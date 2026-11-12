@@ -1,0 +1,9 @@
+scripts/**
+preview/**
+.gitignore
+*.vsix
+.vscode/**
+images/*.svg
+README.marketplace.md
+README.md
+!images/mascots/*.svg

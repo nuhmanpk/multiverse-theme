@@ -1,0 +1,653 @@
+[
+  {
+    "id": "night",
+    "label": "Multiverse Night",
+    "kind": "dark",
+    "group": "Core",
+    "vibe": "everyday dark"
+  },
+  {
+    "id": "dusk",
+    "label": "Multiverse Dusk",
+    "kind": "dark",
+    "group": "Core",
+    "vibe": "soft dark for long sessions"
+  },
+  {
+    "id": "midnight",
+    "label": "Multiverse Midnight (OLED)",
+    "kind": "dark",
+    "group": "Core",
+    "vibe": "true black for OLED"
+  },
+  {
+    "id": "day",
+    "label": "Multiverse Day",
+    "kind": "light",
+    "group": "Core",
+    "vibe": "clean light"
+  },
+  {
+    "id": "contrast",
+    "label": "Multiverse High Contrast",
+    "kind": "hc",
+    "group": "Core",
+    "vibe": "high contrast dark (7:1)"
+  },
+  {
+    "id": "day-contrast",
+    "label": "Multiverse High Contrast Light",
+    "kind": "hcLight",
+    "group": "Core",
+    "vibe": "high contrast light (7:1)"
+  },
+  {
+    "id": "cvd",
+    "label": "Multiverse Clear Sight",
+    "kind": "dark",
+    "group": "Accessibility",
+    "vibe": "deuteranopia / protanopia safe (blue-orange axis)"
+  },
+  {
+    "id": "cvdlight",
+    "label": "Multiverse Clear Sight Light",
+    "kind": "light",
+    "group": "Accessibility",
+    "vibe": "deuteranopia / protanopia safe, light"
+  },
+  {
+    "id": "tritan",
+    "label": "Multiverse Clear Sight Tritan",
+    "kind": "dark",
+    "group": "Accessibility",
+    "vibe": "tritanopia safe (red-teal axis)"
+  },
+  {
+    "id": "nightshift",
+    "label": "Multiverse Night Shift",
+    "kind": "dark",
+    "group": "Accessibility",
+    "vibe": "low blue light for 2am: amber & red only"
+  },
+  {
+    "id": "sunlight",
+    "label": "Multiverse Sunlight",
+    "kind": "light",
+    "group": "Accessibility",
+    "vibe": "outdoor / glare: pure white, deep saturated ink"
+  },
+  {
+    "id": "focus",
+    "label": "Multiverse Focus",
+    "kind": "dark",
+    "group": "Focus & Workflow",
+    "vibe": "minimal: only definitions, strings, constants & comments stand out"
+  },
+  {
+    "id": "focuslight",
+    "label": "Multiverse Focus Light",
+    "kind": "light",
+    "group": "Focus & Workflow",
+    "vibe": "minimal highlighting, light"
+  },
+  {
+    "id": "ink",
+    "label": "Multiverse Ink",
+    "kind": "light",
+    "group": "Focus & Workflow",
+    "vibe": "e-ink / paper: monochrome, comments in blue pencil"
+  },
+  {
+    "id": "stage",
+    "label": "Multiverse Stage",
+    "kind": "dark",
+    "group": "Focus & Workflow",
+    "vibe": "streaming & screen share: survives video compression"
+  },
+  {
+    "id": "stagelight",
+    "label": "Multiverse Stage Light",
+    "kind": "light",
+    "group": "Focus & Workflow",
+    "vibe": "projectors & classrooms: washed-out-proof"
+  },
+  {
+    "id": "vigilante",
+    "label": "Multiverse Night Vigilante",
+    "kind": "dark",
+    "group": "Heroes & Villains",
+    "vibe": "caped detective: black, steel, signal yellow"
+  },
+  {
+    "id": "web",
+    "label": "Multiverse Crimson Web",
+    "kind": "dark",
+    "group": "Heroes & Villains",
+    "vibe": "wall-crawler: deep navy, web red, hero blue"
+  },
+  {
+    "id": "armor",
+    "label": "Multiverse Iron Sentinel",
+    "kind": "dark",
+    "group": "Heroes & Villains",
+    "vibe": "armored genius: hot-rod red, gold, arc-reactor cyan"
+  },
+  {
+    "id": "thunder",
+    "label": "Multiverse Storm Hammer",
+    "kind": "dark",
+    "group": "Heroes & Villains",
+    "vibe": "thunder god: storm slate, lightning, red cape"
+  },
+  {
+    "id": "shield",
+    "label": "Multiverse Star Shield",
+    "kind": "dark",
+    "group": "Heroes & Villains",
+    "vibe": "super-soldier: navy, star white, stripe red"
+  },
+  {
+    "id": "krypton",
+    "label": "Multiverse Steel Hope",
+    "kind": "dark",
+    "group": "Heroes & Villains",
+    "vibe": "last son: cape red, suit blue, crest yellow"
+  },
+  {
+    "id": "emerald",
+    "label": "Multiverse Emerald Oath",
+    "kind": "dark",
+    "group": "Heroes & Villains",
+    "vibe": "willpower ring: void black, emerald light"
+  },
+  {
+    "id": "amazon",
+    "label": "Multiverse Warrior Princess",
+    "kind": "dark",
+    "group": "Heroes & Villains",
+    "vibe": "amazon warrior: crimson, gold, star blue"
+  },
+  {
+    "id": "jade",
+    "label": "Multiverse Jade Fury",
+    "kind": "dark",
+    "group": "Heroes & Villains",
+    "vibe": "gamma rage: torn purple, rage green"
+  },
+  {
+    "id": "speedster",
+    "label": "Multiverse Scarlet Speed",
+    "kind": "dark",
+    "group": "Heroes & Villains",
+    "vibe": "fastest alive: scarlet, lightning gold"
+  },
+  {
+    "id": "jester",
+    "label": "Multiverse Wild Card",
+    "kind": "dark",
+    "group": "Heroes & Villains",
+    "vibe": "chaos clown villain: purple suit, acid green"
+  },
+  {
+    "id": "titan",
+    "label": "Multiverse Mad Titan",
+    "kind": "dark",
+    "group": "Heroes & Villains",
+    "vibe": "cosmic conqueror: purple skin, golden gauntlet, six gems"
+  },
+  {
+    "id": "trickster",
+    "label": "Multiverse Trickster",
+    "kind": "dark",
+    "group": "Heroes & Villains",
+    "vibe": "god of mischief: emerald cloak, gold horns"
+  },
+  {
+    "id": "symbiote",
+    "label": "Multiverse Black Symbiote",
+    "kind": "dark",
+    "group": "Heroes & Villains",
+    "vibe": "alien goo: ink black, white sigil, slime"
+  },
+  {
+    "id": "panther",
+    "label": "Multiverse Panther Royal",
+    "kind": "dark",
+    "group": "Heroes & Villains",
+    "vibe": "jungle king: night black, royal purple glow"
+  },
+  {
+    "id": "mystic",
+    "label": "Multiverse Mystic Arts",
+    "kind": "dark",
+    "group": "Heroes & Villains",
+    "vibe": "sorcerer supreme: blue cloak, orange spell rings"
+  },
+  {
+    "id": "tide",
+    "label": "Multiverse Tide King",
+    "kind": "dark",
+    "group": "Heroes & Villains",
+    "vibe": "ocean ruler: deep sea, orange scales, kelp"
+  },
+  {
+    "id": "academy",
+    "label": "Multiverse Mutant Academy",
+    "kind": "dark",
+    "group": "Heroes & Villains",
+    "vibe": "gifted school: blue-and-gold uniforms"
+  },
+  {
+    "id": "tokyo",
+    "label": "Multiverse Neon Tokyo",
+    "kind": "dark",
+    "group": "Anime",
+    "vibe": "cyberpunk anime: rain-black, magenta, cyan"
+  },
+  {
+    "id": "sakura",
+    "label": "Multiverse Sakura",
+    "kind": "light",
+    "group": "Anime",
+    "vibe": "slice-of-life anime: cherry blossom paper"
+  },
+  {
+    "id": "shonen",
+    "label": "Multiverse Shonen Flame",
+    "kind": "dark",
+    "group": "Anime",
+    "vibe": "battle anime: orange gi, sky-blue energy"
+  },
+  {
+    "id": "spirit",
+    "label": "Multiverse Spirit Forest",
+    "kind": "dark",
+    "group": "Anime",
+    "vibe": "hand-painted fantasy: moss, sky, lantern"
+  },
+  {
+    "id": "crimsonmoon",
+    "label": "Multiverse Crimson Moon",
+    "kind": "dark",
+    "group": "Anime",
+    "vibe": "demon hunters: blood moon, haori checks"
+  },
+  {
+    "id": "shinobi",
+    "label": "Multiverse Shadow Ninja",
+    "kind": "dark",
+    "group": "Anime",
+    "vibe": "hidden village: night navy, scroll red, kunai steel"
+  },
+  {
+    "id": "mecha",
+    "label": "Multiverse Mecha Unit",
+    "kind": "dark",
+    "group": "Anime",
+    "vibe": "giant robot pilot: violet armor, neon green"
+  },
+  {
+    "id": "highseas",
+    "label": "Multiverse High Seas",
+    "kind": "dark",
+    "group": "Anime",
+    "vibe": "pirate adventure: ocean blue, straw gold, red vest"
+  },
+  {
+    "id": "magical",
+    "label": "Multiverse Magical Girl",
+    "kind": "light",
+    "group": "Anime",
+    "vibe": "transformation sequence: pastel sparkle"
+  },
+  {
+    "id": "toon",
+    "label": "Multiverse Toon Night",
+    "kind": "dark",
+    "group": "Anime",
+    "vibe": "cartoon after dark: candy colors on grape"
+  },
+  {
+    "id": "cartoon",
+    "label": "Multiverse Saturday Morning",
+    "kind": "light",
+    "group": "Cartoons",
+    "vibe": "cartoon: cream paper, bold primaries"
+  },
+  {
+    "id": "reef",
+    "label": "Multiverse Bubble Reef",
+    "kind": "light",
+    "group": "Cartoons",
+    "vibe": "undersea cartoon: sunny yellow, lagoon teal"
+  },
+  {
+    "id": "desert",
+    "label": "Multiverse Desert Chase",
+    "kind": "light",
+    "group": "Cartoons",
+    "vibe": "roadrunner cartoon: canyon sand, sky, dynamite"
+  },
+  {
+    "id": "mysteryvan",
+    "label": "Multiverse Mystery Van",
+    "kind": "dark",
+    "group": "Cartoons",
+    "vibe": "meddling kids: van green, ascot orange, flower blue"
+  },
+  {
+    "id": "comicstrip",
+    "label": "Multiverse Comic Strip",
+    "kind": "light",
+    "group": "Cartoons",
+    "vibe": "Sunday funnies: newsprint, halftone CMYK"
+  },
+  {
+    "id": "saber",
+    "label": "Multiverse Saber Duel",
+    "kind": "dark",
+    "group": "Sci-fi & Games",
+    "vibe": "space knights: void, red vs blue blades"
+  },
+  {
+    "id": "mars",
+    "label": "Multiverse Mars Colony",
+    "kind": "dark",
+    "group": "Sci-fi & Games",
+    "vibe": "red planet: rust dust, habitat white, oxygen teal"
+  },
+  {
+    "id": "nebula",
+    "label": "Multiverse Deep Nebula",
+    "kind": "dark",
+    "group": "Sci-fi & Games",
+    "vibe": "deep space: nebula pink, star blue, gas gold"
+  },
+  {
+    "id": "arcade",
+    "label": "Multiverse Pixel Arcade",
+    "kind": "dark",
+    "group": "Sci-fi & Games",
+    "vibe": "8-bit cabinet: CRT black, sprite colors"
+  },
+  {
+    "id": "blocks",
+    "label": "Multiverse Block World",
+    "kind": "dark",
+    "group": "Sci-fi & Games",
+    "vibe": "voxel survival: grass, dirt, diamond, redstone"
+  },
+  {
+    "id": "pipes",
+    "label": "Multiverse Pipe Dream",
+    "kind": "light",
+    "group": "Sci-fi & Games",
+    "vibe": "platformer: sky, brick red, pipe green, coin gold"
+  },
+  {
+    "id": "synthwave",
+    "label": "Multiverse Synthwave Sunset",
+    "kind": "dark",
+    "group": "Retro",
+    "vibe": "80s retro: grid purple, sunset pink/orange"
+  },
+  {
+    "id": "matrixish",
+    "label": "Multiverse Green Rain",
+    "kind": "dark",
+    "group": "Retro",
+    "vibe": "hacker terminal: phosphor on black"
+  },
+  {
+    "id": "turbo",
+    "label": "Multiverse Turbo Blue",
+    "kind": "dark",
+    "group": "Retro",
+    "vibe": "90s DOS IDE: blue screen, yellow & white text"
+  },
+  {
+    "id": "amber",
+    "label": "Multiverse Amber CRT",
+    "kind": "dark",
+    "group": "Retro",
+    "vibe": "monochrome amber terminal"
+  },
+  {
+    "id": "rustforge",
+    "label": "Multiverse Rust Forge",
+    "kind": "dark",
+    "group": "Dev Culture",
+    "vibe": "crab-orange forge, tuned for lifetimes & macros"
+  },
+  {
+    "id": "gopher",
+    "label": "Multiverse Gopher Burrow",
+    "kind": "dark",
+    "group": "Dev Culture",
+    "vibe": "simple and fast: cyan mascot, tan burrow"
+  },
+  {
+    "id": "pythonista",
+    "label": "Multiverse Pythonista",
+    "kind": "dark",
+    "group": "Dev Culture",
+    "vibe": "snake blue & yellow, decorators pop"
+  },
+  {
+    "id": "lofi",
+    "label": "Multiverse Lo-fi Study",
+    "kind": "dark",
+    "group": "Moods & Seasons",
+    "vibe": "late-night beats: dusty lavender, warm lamp"
+  },
+  {
+    "id": "rainy",
+    "label": "Multiverse Rainy Window",
+    "kind": "dark",
+    "group": "Moods & Seasons",
+    "vibe": "grey rain, streetlight yellow, neon sign"
+  },
+  {
+    "id": "vinyl",
+    "label": "Multiverse Vinyl Jazz",
+    "kind": "dark",
+    "group": "Moods & Seasons",
+    "vibe": "smoky club: walnut, brass, velvet"
+  },
+  {
+    "id": "pumpkin",
+    "label": "Multiverse Pumpkin Patch",
+    "kind": "dark",
+    "group": "Moods & Seasons",
+    "vibe": "spooky season: night purple, jack-o-lantern"
+  },
+  {
+    "id": "pine",
+    "label": "Multiverse Festive Pine",
+    "kind": "dark",
+    "group": "Moods & Seasons",
+    "vibe": "winter holidays: pine green, berry red, candle gold"
+  },
+  {
+    "id": "arctic",
+    "label": "Multiverse Arctic Frost",
+    "kind": "light",
+    "group": "Nature, Food & Myth",
+    "vibe": "glacier: snow, ice blue, aurora"
+  },
+  {
+    "id": "volcano",
+    "label": "Multiverse Volcano",
+    "kind": "dark",
+    "group": "Nature, Food & Myth",
+    "vibe": "magma: basalt black, lava orange, ember yellow"
+  },
+  {
+    "id": "espresso",
+    "label": "Multiverse Espresso",
+    "kind": "dark",
+    "group": "Nature, Food & Myth",
+    "vibe": "coffee bar: dark roast, crema, steamed milk"
+  },
+  {
+    "id": "matcha",
+    "label": "Multiverse Matcha Latte",
+    "kind": "light",
+    "group": "Nature, Food & Myth",
+    "vibe": "tea house: oat milk, matcha green, red bean"
+  },
+  {
+    "id": "olympus",
+    "label": "Multiverse Olympus",
+    "kind": "light",
+    "group": "Nature, Food & Myth",
+    "vibe": "greek myth: marble, laurel gold, aegean blue"
+  },
+  {
+    "id": "pharaoh",
+    "label": "Multiverse Pharaoh",
+    "kind": "dark",
+    "group": "Nature, Food & Myth",
+    "vibe": "ancient egypt: lapis, gold leaf, turquoise"
+  },
+  {
+    "id": "brutal",
+    "label": "Multiverse Neo Brutal",
+    "kind": "light",
+    "group": "Art & Design",
+    "vibe": "stark white, pure black ink, one loud hazard orange"
+  },
+  {
+    "id": "bauhaus",
+    "label": "Multiverse Bauhaus",
+    "kind": "light",
+    "group": "Art & Design",
+    "vibe": "primaries on unbleached canvas: red square, blue circle, yellow triangle"
+  },
+  {
+    "id": "riso",
+    "label": "Multiverse Risograph",
+    "kind": "light",
+    "group": "Art & Design",
+    "vibe": "two-tone print: fluorescent pink & federal blue on newsprint"
+  },
+  {
+    "id": "memphis",
+    "label": "Multiverse Memphis Squiggle",
+    "kind": "light",
+    "group": "Art & Design",
+    "vibe": "80s postmodern: confetti squiggles, teal, pink, yellow"
+  },
+  {
+    "id": "sumi",
+    "label": "Multiverse Sumi Ink",
+    "kind": "light",
+    "group": "Art & Design",
+    "vibe": "ink-wash on rice paper: grey washes, one red seal stamp"
+  },
+  {
+    "id": "candy",
+    "label": "Multiverse Candy Pop",
+    "kind": "light",
+    "group": "Art & Design",
+    "vibe": "sugar rush: bubblegum, grape soda, sour apple"
+  },
+  {
+    "id": "fjord",
+    "label": "Multiverse Nordic Fjord",
+    "kind": "light",
+    "group": "Art & Design",
+    "vibe": "scandi minimal: birch white, fjord blue, lingonberry"
+  },
+  {
+    "id": "goldenhour",
+    "label": "Multiverse Golden Hour",
+    "kind": "light",
+    "group": "Art & Design",
+    "vibe": "last sun of the day: honey light, dusty rose, long shadows"
+  },
+  {
+    "id": "aurora",
+    "label": "Multiverse Aurora Borealis",
+    "kind": "dark",
+    "group": "Neon & Electric",
+    "vibe": "polar night lit by green-violet curtains"
+  },
+  {
+    "id": "abyss",
+    "label": "Multiverse Abyssal Glow",
+    "kind": "dark",
+    "group": "Neon & Electric",
+    "vibe": "bioluminescent deep sea: jellyfish cyan, anglerfish lure"
+  },
+  {
+    "id": "vapormall",
+    "label": "Multiverse Vapor Mall",
+    "kind": "dark",
+    "group": "Neon & Electric",
+    "vibe": "1993 food court: teal tile, hot pink, marble bust"
+  },
+  {
+    "id": "glitch",
+    "label": "Multiverse Glitch",
+    "kind": "dark",
+    "group": "Neon & Electric",
+    "vibe": "corrupted signal: RGB split, scanline black, dead-pixel white"
+  },
+  {
+    "id": "samurai",
+    "label": "Multiverse Cyber Ronin",
+    "kind": "dark",
+    "group": "Neon & Electric",
+    "vibe": "neon katana: lacquer black, blood red, chrome, circuit gold"
+  },
+  {
+    "id": "lanterns",
+    "label": "Multiverse Lantern Market",
+    "kind": "dark",
+    "group": "Neon & Electric",
+    "vibe": "night market: paper lanterns, steam, chili oil, jade"
+  },
+  {
+    "id": "deco",
+    "label": "Multiverse Art Deco",
+    "kind": "dark",
+    "group": "Luxe & Cinematic",
+    "vibe": "gatsby ballroom: onyx, gold leaf fans, emerald, champagne"
+  },
+  {
+    "id": "velvet",
+    "label": "Multiverse Royal Velvet",
+    "kind": "dark",
+    "group": "Luxe & Cinematic",
+    "vibe": "throne room: deep plum velvet, ermine, crown gold, ruby"
+  },
+  {
+    "id": "jazz",
+    "label": "Multiverse Midnight Jazz",
+    "kind": "dark",
+    "group": "Luxe & Cinematic",
+    "vibe": "blue note: indigo smoke, saxophone brass, neon sign"
+  },
+  {
+    "id": "noir",
+    "label": "Multiverse Desert Noir",
+    "kind": "dark",
+    "group": "Luxe & Cinematic",
+    "vibe": "neo-western dusk: burnt sienna sky, cactus, tail-light red"
+  },
+  {
+    "id": "crystal",
+    "label": "Multiverse Frozen Crystal",
+    "kind": "dark",
+    "group": "Luxe & Cinematic",
+    "vibe": "ice palace: glacier blue, prism refractions"
+  },
+  {
+    "id": "solarpunk",
+    "label": "Multiverse Solar Punk",
+    "kind": "dark",
+    "group": "Luxe & Cinematic",
+    "vibe": "hopeful future: rooftop gardens, solar gold, sky glass"
+  }
+]

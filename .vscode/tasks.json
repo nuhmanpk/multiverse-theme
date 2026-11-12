@@ -1,0 +1,12 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "multiverse: build",
+      "type": "shell",
+      "command": "node scripts/build.mjs && node scripts/icons.mjs && node scripts/icon-gallery.mjs",
+      "problemMatcher": [],
+      "presentation": { "reveal": "silent", "panel": "shared" }
+    }
+  ]
+}

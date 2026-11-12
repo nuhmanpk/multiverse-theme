@@ -1,0 +1,26 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Run Multiverse (clean VS Code)",
+      "type": "extensionHost",
+      "request": "launch",
+      "args": [
+        "--extensionDevelopmentPath=${workspaceFolder}",
+        "--profile-temp",
+        "--disable-extensions",
+        "${workspaceFolder}/preview"
+      ],
+      "preLaunchTask": "multiverse: build",
+      "sourceMaps": false,
+      "skipFiles": ["<node_internals>/**"]
+    },
+    {
+      "name": "Run Multiverse (with my extensions & settings)",
+      "type": "extensionHost",
+      "request": "launch",
+      "args": ["--extensionDevelopmentPath=${workspaceFolder}", "${workspaceFolder}/preview"],
+      "preLaunchTask": "multiverse: build"
+    }
+  ]
+}
