@@ -60,7 +60,7 @@ async function pickIcons() {
 function step(dir) {
   const list = catalog.map((t) => t.label);
   const i = list.indexOf(current());
-  const next = list[(i + dir + list.length) % list.length];
+  const next = i === -1 ? list[dir === 1 ? 0 : list.length - 1] : list[(i + dir + list.length) % list.length];
   apply(next);
   vscode.window.setStatusBarMessage(`Multiverse → ${short(next)}`, 2500);
 }
